@@ -9,9 +9,9 @@ PACKAGE=abyss
 TOOL=abyss-pe
 DIRECTORY=/opt/packages/$PACKAGE/$VERSION
 
-PERSISTENT_FILESYSTEM=/ocean
-if [ ! -d $PERSISTENT_FILESYSTEM ]; then
+PERSISTENT_FILE_STORAGE=/ocean
+if [ ! -d $PERSISTENT_FILE_STORAGE ]; then
 	singularity exec $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
 else
-	singularity exec -B $PERSISTENT_FILESYSTEM $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+	singularity exec -B $PERSISTENT_FILE_STORAGE $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
 fi
