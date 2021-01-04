@@ -5,7 +5,7 @@ if [ ! $(command -v singularity) ]; then
 fi
 
 VERSION=2.1.5
-PACKAGE=abyss
+PACKAGE=ABySS
 TOOL=abyss-fixmate
 DIRECTORY=/opt/packages/$PACKAGE/$VERSION
 
