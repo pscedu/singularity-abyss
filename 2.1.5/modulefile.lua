@@ -21,11 +21,11 @@ ABySS is a de novo sequence assembler intended for short paired-end reads and la
 
 To load the module type
 
-> module load abyss/2.1.5
+> module load ABySS/2.1.5
 
 To unload the module type
 
-> module unload abyss/2.1.5
+> module unload ABySS/2.1.5
 
 Documentation
 -------------
@@ -46,7 +46,7 @@ Tools included in this module are
 * abyss-pe
 ]])
 
-local package = "abyss"
+local package = "ABySS"
 local version = "2.1.5"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)
