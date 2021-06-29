@@ -1,7 +1,8 @@
 #!/bin/bash
 
-module load singularity
-module load abyss
+if type "module" > /dev/null; then
+	module load ABySS
+fi
 
 mkdir test
 cd test
