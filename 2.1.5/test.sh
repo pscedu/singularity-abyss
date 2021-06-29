@@ -2,6 +2,8 @@
 
 if type "module" > /dev/null; then
 	module load ABySS
+else
+	alias abyss-pe="singularity exec singularity-ABySS-2.1.5.sif abyss-pe"
 fi
 
 mkdir test
