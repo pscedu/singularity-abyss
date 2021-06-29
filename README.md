@@ -11,12 +11,11 @@ Singularity recipe for [ABYSS](https://github.com/sandialabs/ABYSS).
 Copy the
 
 * `SIF` file
-* and the Perl scripts
+* and the scripts
 
-to `/opt/packages/abyss/2.1.5`.
+to `/opt/packages/ABySS/2.1.5`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/abyss` as `2.1.5.lua`.
-
+Copy the file `modulefile.lua` to `/opt/modulefiles/ABySS` as `2.1.5.lua`.
 
 ## Building the image using the recipe
 
