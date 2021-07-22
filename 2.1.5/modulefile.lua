@@ -4,6 +4,7 @@
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Biological Sciences"
 -- "Description: ABySS is a de novo sequence assembler intended for short paired-end reads and large genomes."
+-- "Keywords: singularity bioinformatics"
 
 whatis("Name: ABySS")
 whatis("Version: 2.1.5")
