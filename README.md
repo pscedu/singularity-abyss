@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-abyss)
 
 # singularity-abyss
-Singularity recipe for [ABYSS](https://github.com/sandialabs/ABYSS).
+Singularity recipe for [ABySS](https://github.com/sandialabs/ABYSS).
 
 ## Installing the container on Bridges 2
 Copy the
