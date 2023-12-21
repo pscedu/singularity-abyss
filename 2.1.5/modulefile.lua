@@ -13,11 +13,6 @@ whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: ABySS is a de novo sequence assembler intended for short paired-end reads and large genomes.")
 
 help([[
-ABySS 2.1.5
------------
-
-Description
------------
 ABySS is a de novo sequence assembler intended for short paired-end reads and large genomes.
 
 To load the module type

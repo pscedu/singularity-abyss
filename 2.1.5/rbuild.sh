@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Copyright © 2021 Pittsburgh Supercomputing Center.
+# Copyright © 2021-2023 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
-IMAGE=singularity-abyss-2.1.5.sif
+IMAGE=singularity-ABySS-2.1.5.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
