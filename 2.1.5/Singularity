@@ -27,5 +27,3 @@ From: debian:buster
 
 %apprun abyss-pe
   abyss-pe "$@"
-
-$runscript abyss
