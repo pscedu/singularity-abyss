@@ -1,29 +1,15 @@
 Bootstrap: docker
-From: debian:buster
+From: debian:latest
 
 %labels
     MAINTAINER icaoberg
     EMAIL icaoberg@psc.edu
     SUPPORT help@psc.edu
     REPOSITORY https://github.com/pscedu/singularity-abyss
-    COPYRIGHT Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.
+    COPYRIGHT Copyright © 221-2025 Pittsburgh Supercomputing Center. All Rights Reserved.
     VERSION 2.1.5
 
 %post
     apt-get update && apt-get install -y --no-install-recommends apt-utils
     apt-get update --fix-missing
     apt-get install -y abyss
-
-####################################################################################
-%apphelp abyss-fixmate
-  abyss-fixmate --help
-
-%apprun abyss-fixmate
-  abyss-fixmate "$@"
-
-####################################################################################
-%apphelp abyss-pe
-  abyss-pe --help
-
-%apprun abyss-pe
-  abyss-pe "$@"
